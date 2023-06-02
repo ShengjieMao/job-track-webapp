@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.add__form {
+  margin: 20px;
+  font-weight: bold;
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+  background-color: lightcyan;
+  padding: 1rem;
+}
+
+.login {
+  background-color: lightblue;
+  padding: 2rem;
+  font-family: "American Typewriter", serif;
+}
+
+.login-form {
+  text-align: center;
+  align-content: center;
+  font-size: large;
+  background-color: lightcyan;
+}
+
+.job__text--reject {
+  text-decoration: line-through;
+}
+
+.job__text--added {
+  animation: fadeIn 1s;
+}
+
+.job {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome {
+  background-color: lightblue;
+  font-size: large;
+  font-family: "American Typewriter", serif;
+  position: absolute;
+  left: 0;
+  width: 100%;
+}
+
+.job__list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px;
+}
+
+.job__detail {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 20px
+}
+
